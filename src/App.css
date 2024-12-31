@@ -1,0 +1,117 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.main{
+  z-index: 9;
+  transform: translateY(-1000px);
+ 
+  width: 100%;
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background-color: black;
+}
+.logo h1{
+  font-size: 45px;
+  margin: 45px 12px;
+}
+.navbar{
+  margin: 45px 12px;
+  font-family: "Roboto", serif;
+}
+.navbar li{
+  font-size: 52px;
+}
+
+.uls{
+  display: flex;
+  justify-content: space-between;
+}
+.socials{
+  margin: 12px 45px;
+
+  font-size: 21px;
+}
+.adress{
+  margin: 12px 45px;
+
+
+}
+
+.email{
+  margin: 12px 45px;
+
+
+}
+
+.nav{
+  padding: 21px 45px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  color: black;
+}
+
+.logos h1{
+  font-size: 45px;
+ 
+}
+
+.nav li{
+  font-style: italic;
+  padding: 0px 12px;
+  font-size: 20px;
+}
+
+
+.navbar {
+
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+}
+
+.hamburger {
+ 
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.hamburger span {
+  display: none;
+  width: 25px;
+  height: 3px;
+  background-color: gray;
+  transition: all 0.3s ease;
+}
+
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg);
+  position: relative;
+  top: 6px;
+}
+
+.hamburger.open span:nth-child(2) {
+  transform: rotate(-45deg);
+  position: relative;
+  top: -6px;
+}
+
+@media (max-width : 768px){
+  .hamburger span{
+    display: block;
+  }
+  .uls{
+    display: none;
+  }
+}
