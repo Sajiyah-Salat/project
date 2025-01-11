@@ -5,6 +5,8 @@ import './App.css'
 import About from './components/About'
 import Eye from './components/Eye'
 import Featured from './components/Featured'
+import Footer from './components/Footer'
+
 
 const App = () => {
   return (
@@ -14,6 +16,7 @@ const App = () => {
       <About/>
       <Eye/>
       <Featured/>
+      <Footer/>
     </div>
   )
 }

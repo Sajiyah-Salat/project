@@ -61,11 +61,12 @@ gsap.to('.main' , {
             </div>
         </div>
 
-        <div className="nav">
-        <div className="logos">
+  
+<div className="flex">
+<div className="logos">
                 <h1 >ochi</h1>
             </div>
-
+      <div className="nav">
             <nav>
                 <ul className="uls">
                     <li >Service</li>
@@ -80,6 +81,7 @@ gsap.to('.main' , {
                 <span></span>
             </div>
         </div>
+</div>
 </>
     )
 }

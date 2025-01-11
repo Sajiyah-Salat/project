@@ -1,5 +1,6 @@
-import React from 'react'
+import React  from 'react'
 import '../App.css'
+
 
 function Hero() {
   return (
@@ -22,7 +23,7 @@ function Hero() {
         <ul>
             <p>For Public and private companies</p>
             <p>For the first pitch to IPO</p>
-            <button>START THE PROJECT</button>
+            <button className='btn'>START THE PROJECT</button>
 
         </ul>
       </div>
