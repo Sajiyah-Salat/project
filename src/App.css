@@ -402,7 +402,7 @@ margin-top: 75px;
 }
 .boxes{
   gap: 10px;
-  margin: 45px 12pxpx;
+  margin: 45px 12px;
   display: flex;
   justify-content: space-between;
 }
