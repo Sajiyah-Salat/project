@@ -4,13 +4,7 @@ function Footer() {
   return (
     <div>
       <div className="Footer" >
-      <h1>
-    WE CREATE <br />
-      <span className="eye-opening">EYE-OPENING</span> 
      
-    <br /> 
-    PRESENTATION
-  </h1>
 
             <nav>
                 <ul className="foot">

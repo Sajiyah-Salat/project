@@ -9,28 +9,27 @@ function Featured() {
 
 
             <div className="container">
-                <div className="left">
-                    <li>CARDBOARD SPACESHIP</li>
-                    <img src="https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-663x551.png" alt="" />
-                   <div className="buttons">
-                   <button className="feat-btn">BRANDED TEMPLATE</button>
-                    <button className="feat-btn">SALES DECK</button>
-                    <button className="feat-btn">SOCIAL TEMPLATES</button>
-                   </div>
+ 
 
-                </div>
+  <div className="left">
+    <li>CARDBOARD SPACESHIP</li>
+    <img src="https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-663x551.png" alt="Cardboard Spaceship" />
+    <div className="buttons">
+      <button className="feat-btn">BRANDED TEMPLATE</button>
+      <button className="feat-btn">SALES DECK</button>
+      <button className="feat-btn">SOCIAL TEMPLATES</button>
+    </div>
+  </div>
 
-                <div className="right">
-                    <li>AH2 & MATT HORN            </li>
-                    <img src="https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-663x551.png" alt="" />
-                   <div className="buttons">
-                   <button className="feat-btn">PITCH DESK</button>
-                   </div>
+  <div className="right">
+    <li>AH2 & MATT HORN</li>
+    <img src="https://ochi.design/wp-content/uploads/2024/08/Frame-481692-1-663x551.png" alt="AH2 & Matt Horn" />
+    <div className="buttons">
+      <button className="feat-btn">PITCH DESK</button>
+    </div>
+  </div>
+</div>
 
-                </div>
-
-
-            </div>
 
             <div className="container">
                 <div className="left">
@@ -85,7 +84,32 @@ function Featured() {
 
             </div>
 
-        
+
+            <h1 className='acheive'>
+   OUR  
+      <span className="eye-opening"><i> Acheivements</i></span> 
+     
+   
+  </h1>
+  <div className="boxes">
+    <div className="box1">
+      <div className="mid">  <img src="https://ochi.design/wp-content/uploads/2022/04/logo001.svg" alt="" /></div>
+        <button>@2019-2022</button>
+    </div>
+    <div className="box2">
+<div className="mid">
+
+<img src="https://ochi.design/wp-content/uploads/2022/04/logo002.svg" alt="" />
+</div>
+        <button>RATING 5.0 CLUTCH</button>
+    </div>
+    <div className="box3">
+      <div className="mid">
+      <img src="https://ochi.design/wp-content/uploads/2022/04/logo003.png" alt="" />
+      </div>
+        <button>BUSINESS BOOTCAMP ALUMNI</button>
+    </div>
+  </div>
             
         </div>
     )

@@ -69,11 +69,10 @@ gsap.to('.main' , {
       <div className="nav">
             <nav>
                 <ul className="uls">
-                    <li >Service</li>
-                    <li >Our work</li>
-                    <li >About</li>
-                    <li >Insight</li>
-                    <li>Contact Us</li>
+                  {["Services " , "Our work" , "About" , "Insight" , "Contact Us" ].map((item , index)=>(
+                    <li key={index} >{item}</li>
+                  ))}
+
                 </ul>
             </nav>
             <div className="hamburger" ref={hamburger} onClick={handleClick}>
